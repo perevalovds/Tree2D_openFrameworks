@@ -20,6 +20,7 @@ void pbTextureUtil::drawQuads( float *pointP, float *textureP, int nQuads, ofTex
 {
 	if ( nQuads > 0 ) {
 		int vertexCoords = ( _3d ) ? 3 : 2;
+		ofFill();
 
 		tex.bind();
 		glEnableClientState(GL_VERTEX_ARRAY);
@@ -39,7 +40,8 @@ void pbTextureUtil::drawQuads( vector<ofPoint> pointP, vector<ofPoint> textureP,
     int n = min( int(pointP.size()), int( textureP.size() ) ) / 4;
     if ( n > 0 ) {
         int vertexCoords = ( _3d ) ? 3 : 2;
-        
+		ofFill();
+
         tex.bind();
 		glEnableClientState(GL_VERTEX_ARRAY);
 		glEnableClientState(GL_TEXTURE_COORD_ARRAY);
@@ -59,7 +61,8 @@ void pbTextureUtil::drawQuads( vector<ofPoint> pointP, bool _3d)
     int n = int(pointP.size()) / 4;
     if ( n > 0 ) {
         int vertexCoords = ( _3d ) ? 3 : 2;
-        
+ 
+		ofFill();
 		glEnableClientState(GL_VERTEX_ARRAY);
 		glVertexPointer(vertexCoords, GL_FLOAT, sizeof( ofPoint ), &(pointP[0].x));
 		glDrawArrays(GL_QUADS, 0, n * 4);

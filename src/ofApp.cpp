@@ -133,7 +133,7 @@ void testApp::draw(){
     
     ofSetColor( 255 );
     float x = ( bigScreen ) ? ( ofGetWidth() / 2 ) : 10;
-    ofDrawBitmapString( "1,2 - scenes, rightmouse,' ' - mapping, -/= screen", x, 15 );
+    ofDrawBitmapString( "s-save, 1,2-scenes, RBM,Space - mapping, -/= screen", x, 15 );
 	//ofSetColor(color);
 	//for(int i=0;i<number;i++){
 	//	ofCircle(ofGetWidth()*.5-size*((number-1)*0.5-i), ofGetHeight()*.5, size);

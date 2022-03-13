@@ -210,6 +210,8 @@ void TreeDyn::update( float dt )
             
             _p.push_back( p1 );
             
+            if (_p.size() == maxN) 
+                break;
             
             //ветвление
             //при этом ближе к концу - чаще разветвляемся
@@ -219,7 +221,7 @@ void TreeDyn::update( float dt )
             if ( e < 0.6 ) chance = 0.20; //0.20;
             if ( e < 0.15 ) chance = 0.30;
             float r = ofNoise( p.struc.x + i*27.834, p.struc.y, p.struc.z + 580.42 );
-            if ( r <= chance ) {
+            if ( r <= chance) {
                 //cout << "branch" << endl;
                 int dir = (ofNoise( p.struc.x + i*95.361, p.struc.y, p.struc.z + 105.683 ) > 0.5) ? -1 : 1;
                 
@@ -275,8 +277,7 @@ void TreeDyn::update( float dt )
         }
         i++;
     }
-    
-    
+        
 }
 
 //--------------------------------------------------------
