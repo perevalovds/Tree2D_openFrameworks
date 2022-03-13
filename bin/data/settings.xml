@@ -1,0 +1,53 @@
+<parameters>
+	<size>56</size>
+	<number>13</number>
+	<check>0</check>
+	<color>154, 0, 92, 53</color>
+<parameters/>
+<params>
+		<size>10</size>
+		<number>10</number>
+		<check>0</check>
+		<color>127, 127, 127, 255</color>
+		<energy>630</energy>
+	<trMorph>0.5</trMorph>
+		<trMorph2>0.695</trMorph2>
+		<trWidth>0.87</trWidth>
+		<trDecrease>0.655</trDecrease>
+		<trBranch>0.71</trBranch>
+		<trScale>0.39</trScale>
+		<trExtend>0.28</trExtend>
+		<trSpiral>0</trSpiral>
+		<trNoiseAmp>0.22</trNoiseAmp>
+		<trNoiseVel>0.075</trNoiseVel>
+		<galAlpha>0.12</galAlpha>
+		<galRad>0.5</galRad>
+		<galSclX>0.275</galSclX>
+		<galSclY>0.075</galSclY>
+		<galScl>0.5</galScl>
+		<galRotX>0.5</galRotX>
+		<galRotZ>0.5</galRotZ>
+		<galX>0.5</galX>
+		<galY>0.5</galY>
+	<trSpiral1>0.08</trSpiral1>
+		<trSpiral2>0.08</trSpiral2>
+		<trSpiral3>0.09</trSpiral3>
+		<trSpiral4>0.075</trSpiral4>
+	<trScale1>0.12</trScale1>
+		<trScale2>0.12</trScale2>
+		<trScale3>0.11</trScale3>
+		<trScale4>0.115</trScale4>
+		<trExtend1>0.185</trExtend1>
+		<trExtend2>0.2</trExtend2>
+		<trExtend3>0.185</trExtend3>
+		<trExtend4>0.16</trExtend4>
+	<trBlobsAlpha>1</trBlobsAlpha>
+	<trEnabled>1</trEnabled>
+		<fEnabled>0.1</fEnabled>
+		<fBurst1>0</fBurst1>
+		<fBurst2>0</fBurst2>
+		<fBurst3>0</fBurst3>
+		<fBurst4>0</fBurst4>
+	<trTreesAlpha>1</trTreesAlpha>
+	</params>
+</parameters>

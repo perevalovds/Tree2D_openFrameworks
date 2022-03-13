@@ -1,0 +1,10 @@
+/bin/*.dll
+/bin/*.exe
+/bin/*.exp
+/bin/*.iobj
+/bin/*.ipdb
+/bin/*.lib
+/bin/*.ilk
+/bin/*.pdb
+.vs
+obj
